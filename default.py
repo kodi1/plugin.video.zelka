@@ -109,7 +109,7 @@ def index_cat():
 
 def play_video(url, name):
   #p = 'plugin://plugin.video.yatp/?action=play&torrent=%s&file_index=dialog' % (str(url),)
-  p = 'plugin://plugin.video.pulsar/play?uri=%s' % (str(url),)
+  p = 'plugin://plugin.video.quasar/play?uri=%s' % (str(url),)
 
   item = xbmcgui.ListItem(path=p)
   xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, item)
