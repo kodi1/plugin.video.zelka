@@ -30,7 +30,8 @@ class zelka():
       ('tr', 'udp://9.rarbg.com:2710/announce')
     )
     self.__categories = [
-                    {'cat_ids':'5','cat_name':u'HD Movies'},
+                    {'cat_ids':'5','cat_name':u'Movies'},
+                    {'cat_ids':'53','cat_name':u'Movies Hd'},
                     {'cat_ids':'31','cat_name':u'Science Movies'},
                     {'cat_ids':'28','cat_name':u'Russian Movies'},
                     {'cat_ids':'24','cat_name':u'Bg Movies'},
